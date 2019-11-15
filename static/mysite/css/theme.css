@@ -62,4 +62,10 @@ margin: 0;
 .uk-card-body {
     padding: 10px 20px;
 }
-.blog-uk-light{color: rgba(255, 255, 255);}
+.blog-uk-light{color: rgba(255, 255, 255,1);}
+/*详情页*/
+
+.detail-body{background:#385e94;}
+.uk-article,.uk-article p,.uk-article span,.uk-article a,.uk-article h1,.uk-article h2,.uk-article h3,.uk-article h4{color: #ffffff}
+blockquote{font-style: normal;color: #ffffff}.uk-article code span{color: #e03939}.uk-article em{color: #ffffff}.uk-article strong span{color: #ffffff}
+.uk-article a:hover{color: #ffffff;font-weight: bold}

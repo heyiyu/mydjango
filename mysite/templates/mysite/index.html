@@ -1,31 +1,36 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
     <title>Title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/uikit.min.css" />
-    <link rel="stylesheet" href="../css/theme.css" />
-    <script src="../js/uikit.min.js"></script>
-    <script src="../js/uikit-icons.min.js"></script>
+{#    {% load static %}#}
+{#    <link rel="stylesheet" href="{% static 'mysite/css/uikit.min.css' %}" />#}
+{#    <link rel="stylesheet" href="{% static 'mysite/css/theme.css' %}" />#}
+{#    <script src="{% static 'mysite/js/uikit.min.js' %}"></script>#}
+{#    <script src="{% static 'mysite/js/uikit-icons.min.js' %}" ></script>#}
+    <link rel="stylesheet" href="https://langlicun.com/static/mysite/css/uikit.min.css"/>
+    <link href="https://langlicun.com/static/mysite/css/theme.css" rel="stylesheet">
+    <script src="https://langlicun.com/static/mysite/js/uikit.min.js"></script>
+    <script src="https://langlicun.com/static/mysite/js/uikit-icons.min.js"></script>
     <style>
-        .uk-navbar-nav>li>a {
+        .uk-navbar-nav > li > a {
             color: #ffffff;
             font-weight: 400;
         }
 
-        .uk-navbar-nav-title>li>a {
+        .uk-navbar-nav-title > li > a {
             color: #fff;
             font-size: 22px;
         }
 
-        .uk-navbar-nav>li>a:hover {
+        .uk-navbar-nav > li > a:hover {
             color: #ffffff;
             font-weight: bold;
         }
 
-        .uk-margin-remove-top>li {
+        .uk-margin-remove-top > li {
             margin-top: 10px;
         }
 
@@ -33,150 +38,134 @@
             display: block;
         }
     </style>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e1fd6a690a98a8c65e9647260a2df3e1";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </head>
 
 <body>
-    <nav style="z-index: 100;height: 60px;" uk-navbar>
+<nav style="z-index: 100;height: 60px;" uk-navbar>
 
-        <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav uk-navbar-nav-title">
-                <li>
-                    <a href="index.html"><img src="../image/bangbangtang.svg" width="40" height="40" uk-svg>何以愚</a>
-                </li>
+    <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav uk-navbar-nav-title">
+            <li>
+                <a href="index.html"><img src="https://langlicun.com/static/mysite/img/bangbangtang.svg" width="40" height="40" uk-svg>abc</a>
+            </li>
 
-            </ul>
+        </ul>
 
-        </div>
-
-        <div class="uk-navbar-right">
-
-            <ul class="uk-navbar-nav">
-
-                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">To语言教程</a>
-                </li>
-                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">知乎高级教程</a>
-                </li>
-                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">做菜入门教程</a>
-                </li>
-                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">穿衣搭配指南</a>
-                </li>
-                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">身心健康训练营</a>
-                </li>
-                <li class="uk-parent new-uk-active"><a href="blog.html" aria-expanded="false" class="">愚文</a>
-                </li>
-            </ul>
-
-        </div>
-
-    </nav>
-
-    <!-- <div class="uk-background-fixed uk-background-center-center uk-height-medium uk-width-1-1 uk-position-top" style="background-image: url(../image/210546.png);"></div>    -->
-    <div class="uk-background-image@m uk-background-cover uk-background-muted uk-flex uk-flex-center uk-flex-middle uk-position-top"
-        style="height: 360px; background-image: url(../image/210546.png);">
-        <p class="uk-h4 uk-margin-remove uk-visible@m blog-uk-light">一个让你轻松成长的地方</p>
-        <p class="uk-h4 uk-margin-remove uk-hidden@m">Image not shown</p>
     </div>
-    <!--正文-->
 
-    <div class="uk-section uk-section-default" style="margin-top:360px;">
-        <div class="uk-container uk-container-large">
-            <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+    <div class="uk-navbar-right">
 
-                <div class="uk-width-4-5@m" uk-grid>
+        {#            <ul class="uk-navbar-nav">#}
+        {##}
+        {#                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">To语言教程</a>#}
+        {#                </li>#}
+        {#                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">知乎高级教程</a>#}
+        {#                </li>#}
+        {#                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">做菜入门教程</a>#}
+        {#                </li>#}
+        {#                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">穿衣搭配指南</a>#}
+        {#                </li>#}
+        {#                <li class="uk-parent"><a href="course.html" aria-expanded="false" class="">身心健康训练营</a>#}
+        {#                </li>#}
+        {#                <li class="uk-parent new-uk-active"><a href="blog.html" aria-expanded="false" class="">愚文</a>#}
+        {#                </li>#}
+        {#            </ul>#}
 
-                    <div class="uk-width-3-4@m">
+    </div>
+
+</nav>
+
+<!-- <div class="uk-background-fixed uk-background-center-center uk-height-medium uk-width-1-1 uk-position-top" style="background-image: url(../image/210546.png);"></div>    -->
+<div class="uk-background-image@m uk-background-cover uk-background-muted uk-flex uk-flex-center uk-flex-middle uk-position-top"
+     style="height: 360px; background-image: url('https://langlicun.com/static/mysite/img/210546.png');">
+    <p class="uk-h4 uk-margin-remove uk-visible@m blog-uk-light">一个让你轻松成长的地方</p>
+    <p class="uk-h4 uk-margin-remove uk-hidden@m">Image not shown</p>
+</div>
+<!--正文-->
+
+<div class="uk-section uk-section-default" style="margin-top:360px;">
+    <div class="uk-container uk-container-large">
+        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+
+            <div class="uk-width-4-5@m" uk-grid>
+
+                <div class="uk-width-3-4@m">
+
+
+                    {% for n in nList %}
+
+
                         <div class="uk-flex-middle" uk-grid>
                             <div class="uk-width-4-5@m">
-                                    <h4 class="index-article-list-title">初恋那点小事</h4>
-                                    <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
-                                    <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
-                                            class="uk-text-middle">2019年5月20日 13:14 </span><span
-                                            class="uk-margin-small-right uk-margin-small-left"
-                                            uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
+                                <h4 onclick="window.open('{% url 'mysite:detail' n.nId %}')" class="index-article-list-title">{{ n.nTitle }}</h4>
+                                <p>{{ n.nSummary }}</p>
+                                <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
+                                        class="uk-text-middle">{{ n.nCreateTime }}</span><span
+                                        class="uk-margin-small-right uk-margin-small-left"
+                                        uk-icon="heart"></span> <span class="uk-text-middle">{{ n.nView }}</span></p>
                             </div>
                             <div class="uk-width-1-5@m uk-flex-first uk-animation-toggle ">
-                                <img class="img-border-radius" src="https://img2.mukewang.com/5d8ddb9d0001b8d003670308-200-200.jpg" class="uk-animation-slide-left">
+                                {% if n.nPicUrl != none %}
+                                    <img class="img-border-radius" src="{{ n.nPicUrl }}" class="uk-animation-slide-left">
+                                {% endif %}
+
                             </div>
                         </div>
-                        <div class="uk-flex-middle" uk-grid>
-                                <div class="uk-width-4-5@m">
-                                        <h4 class="index-article-list-title">初恋那点小事</h4>
-                                        <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
-                                        <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
-                                                class="uk-text-middle">2019年5月20日 13:14 </span><span
-                                                class="uk-margin-small-right uk-margin-small-left"
-                                                uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
-                                </div>
-                                <div class="uk-width-1-5@m uk-flex-first uk-animation-toggle ">
-                                    <img class="img-border-radius" src="https://img1.mukewang.com/5d9a97b00001603921701326-200-200.jpg" class="uk-animation-slide-left">
-                                </div>
-                            </div>
-                            <div class="uk-flex-middle" uk-grid>
-                                    <div class="uk-width-4-5@m">
-                                            <h4 class="index-article-list-title">初恋那点小事</h4>
-                                            <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
-                                            <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
-                                                    class="uk-text-middle">2019年5月20日 13:14 </span><span
-                                                    class="uk-margin-small-right uk-margin-small-left"
-                                                    uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
-                                    </div>
-                                    <div class="uk-width-1-5@m uk-flex-first uk-animation-toggle ">
-                                        <img class="img-border-radius" src="https://www.imooc.com/static/img/article/cover/pic24.jpg" class="uk-animation-slide-left">
-                                    </div>
-                                </div>
-                                <div class="uk-flex-middle" uk-grid>
-                                        <div class="uk-width-4-5@m">
-                                                <h4 class="index-article-list-title">初恋那点小事</h4>
-                                                <p>吹红了桃花,吹绿了柳树,你在路上总会安慰谁。吹醒了青蛙，吹来了燕子，我在城里刚好缺了谁。你纵然带来地下的玫瑰，</p>
-                                                <p><span class="uk-margin-small-right" uk-icon="pencil"></span><span
-                                                        class="uk-text-middle">2019年5月20日 13:14 </span><span
-                                                        class="uk-margin-small-right uk-margin-small-left"
-                                                        uk-icon="heart"></span> <span class="uk-text-middle">9999</span></p>
-                                        </div>
-                                        <div class="uk-width-1-5@m uk-flex-first uk-animation-toggle ">
-                                            <img class="img-border-radius" src="https://img2.mukewang.com/5d9eeb48000180c305500331-200-200.jpg" class="uk-animation-slide-left">
-                                        </div>
-                                    </div>
+
+
+                    {% endfor %}
+
+                </div>
+                <div class="uk-width-1-5@m uk-flex-first"></div>
+            </div>
+            <div>
+                <article class="uk-comment">
+                    <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+                        <div class="uk-width-auto">
+                            <img class="uk-border-pill" src="https://langlicun.com/static/mysite/img/avatar.jpg" width="80" height="80" alt="">
+                        </div>
+                        <div class="uk-width-expand">
+                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">何以愚</a>
+                            </h4>
+                            <ul class="uk-comment-meta uk-subnav uk-margin-remove-top">
+                                <li><a href="#">射手座</a></li>
+                                <li><a href="#">程序员-冥想练习生</a></li>
+
+                            </ul>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p class="container">现在用身心透支的方式努力奋斗的人太多，极少人知道身心安宁、健康的方式才是最高效、最持久的奋斗法宝，更极少人知道怎么获得这种能力。物以稀为贵。
+                        </p>
                     </div>
-                    <div class="uk-width-1-5@m uk-flex-first"></div>
-                </div>
-                <div>
-                    <article class="uk-comment">
-                        <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
-                            <div class="uk-width-auto">
-                                <img class="uk-border-pill" src="../image/avatar.jpg" width="80" height="80" alt="">
-                            </div>
-                            <div class="uk-width-expand">
-                                <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">何以愚</a>
-                                </h4>
-                                <ul class="uk-comment-meta uk-subnav uk-margin-remove-top">
-                                    <li><a href="#">射手座</a></li>
-                                    <li><a href="#">程序员-冥想练习生</a></li>
+                    <div style="margin-top: 10px;">
 
-                                </ul>
-                            </div>
-                        </header>
-                        <div class="uk-comment-body">
-                            <p class="container">现在用身心透支的方式努力奋斗的人太多，极少人知道身心安宁、健康的方式才是最高效、最持久的奋斗法宝，更极少人知道怎么获得这种能力。物以稀为贵。
-                            </p>
-                        </div>
-                        <div style="margin-top: 10px;">
-
-                            <a href="https://www.zhihu.com/people/shi-cuo-92-50/answers?order_by=created" target="_blank"><img src="../image/zhihu.svg" width="30" height="30" uk-svg></a>
-                            <div class="uk-inline"> 
-                                <a><img src="../image/wechat.svg" width="30" height="30" uk-svg></a>
-                                <div class="cu_toolbar" style="display: none;" uk-drop="pos: bottom-center"><img src="../image/avatar.jpg"></div>
-                            </div>
-                            <a href="https://github.com/heyiyu" target="_blank" uk-icon="github" width="30" height="30"></a>
-                        </div>
-                        
+                        <a href="https://www.zhihu.com/people/shi-cuo-92-50/answers?order_by=created"
+                           target="_blank"><img src="https://langlicun.com/static/mysite/img/zhihu.svg" width="30" height="30" uk-svg> 来啊，来追我啊</a>
+{#                        <div class="uk-inline">#}
+{#                            <a><img src="https://langlicun.com/static/mysite/img/wechat.svg" width="30" height="30"#}
+{#                                    uk-svg></a>#}
+{#                            <div class="cu_toolbar" style="display: none;" uk-drop="pos: bottom-center"><img#}
+{#                                    src="https://langlicun.com/static/mysite/img/avatar.jpg"></div>#}
+{#                        </div>#}
+{#                        <a href="https://github.com/heyiyu" target="_blank" uk-icon="github" width="30" height="30"></a>#}
+                    </div>
 
 
-                    </article>
-                </div>
+                </article>
             </div>
         </div>
     </div>
+</div>
 </body>
 
 </html>
